@@ -2,6 +2,12 @@
 #include <string.h>
 #include "stack.h"
 
+#Initially have top index set to -1
+
+void initialize() {
+ st.top = -1;
+}
+
 #To check if stack is Full or not
 
 int isFull() {   
